@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces         db-creds/DB_PASSWORD (edit)
+
+
+
+
+    +----------------------------------------------------------------------+
+    |                                                                      |
+    |  Dry-run rejected                                                    |
+    |  ------------------------------------------------------------------  |
+    |                                                                      |
+    |  dry-run save Secret default/db-creds - key DB_PASSWORD              |
+    |  context test-ctx - server https://test.example                      |
+    |                                                                      |
+    |  The apiserver or an admission webhook refused this change.          |
+    |  Nothing was written.                                                |
+    |                                                                      |
+    |  admission webhook "policy" denied the request                       |
+    |                                                                      |
+    +----------------------------------------------------------------------+
+
+
+
+
+e re-edit  esc abort

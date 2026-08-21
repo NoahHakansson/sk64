@@ -1,0 +1,24 @@
+ test-ctx  https://test.example                                      namespaces
+
+
+
+
+
+
+
+     +--------------------------------------------------------------------+
+     |                                                                    |
+     |  Link Deployment production/web to project api                     |
+     |                                                                    |
+     |  [loading] link Deployment production/web -> api - cannot cancel   |
+     |                                                                    |
+     +--------------------------------------------------------------------+
+
+
+
+
+
+
+
+
+linking (cannot cancel)

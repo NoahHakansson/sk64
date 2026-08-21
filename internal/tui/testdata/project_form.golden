@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces                         new project
+
+
+
+
+    +----------------------------------------------------------------------+
+    |                                                                      |
+    |  New project                                                         |
+    |  ------------------------------------------------------------------  |
+    |                                                                      |
+    |  detected root: /repos/api                                           |
+    |                                                                      |
+    |  Scan safely infers project metadata only; it creates no links.      |
+    |                                                                      |
+    |  > scan detected project root                                        |
+    |    continue manually                                                 |
+    |                                                                      |
+    +----------------------------------------------------------------------+
+
+
+
+
+
+enter select  up/down choose  esc discard

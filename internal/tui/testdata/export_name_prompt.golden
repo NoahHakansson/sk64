@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  db-creds...PASSWORD (file)
+
+
+  +------------------------------------------------------+
+  |                                                      |
+  |  Export db-creds/DB_PASSWORD to a file               |
+  |  --------------------------------------------------  |
+  |                                                      |
+  |  export Secret default/db-creds - key DB_PASSWORD    |
+  |  context test-ctx - server https://test.example      |
+  |                                                      |
+  |  ! This writes the plaintext secret to disk. sk64    |
+  |    never removes it.                                 |
+  |                                                      |
+  |    into /exports/                                    |
+  |  name: DB_PASSWORD                                   |
+  |                                                      |
+  |  [success] file is new                               |
+  |                                                      |
+  +------------------------------------------------------+
+
+
+
+enter export  tab dir  esc back

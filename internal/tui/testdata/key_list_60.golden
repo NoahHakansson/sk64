@@ -1,0 +1,18 @@
+ test-ctx  https://test.example  ...        long-key-secret
+[S] Secret default/long-key-secret  Opaque
+  1 key
+> long-binary-key-long-binary-key-long-binary-k...  [binary]
+
+
+
+
+
+
+
+
+
+
+
+
+
+enter edit  e edit all  N new  D delete  esc back  ? help

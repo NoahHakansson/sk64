@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces                             default
+  Filter: app
+  📄 app-settings
+  🔒 app-credentials  Opaque
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+enter keys  N new  D delete  r consumers  L link  t type  esc cancel  ? help

@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces  Consumers of Secret default/shared
+Consumers of Secret default/shared
+  3 consumers
+> Deployment/web         env(key)  [rollout]
+  Pod/operator-pod       volume
+  ServiceAccount/puller  sa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/ filter  esc back  ? help

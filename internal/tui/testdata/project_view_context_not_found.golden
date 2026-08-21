@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces                                 api
+api  /repos/api
+context: gone-ctx   server: https://gone.example
+namespaces: production
+[context not found] context "gone-ctx" not found in kubeconfig - e to re-point
+  1 workload - 1 resource
+Workloads
+> Deployment/web  production  [context not found]
+Directly linked resources
+  [S]  credentials  production     [context not found]
+
+
+
+
+
+
+
+
+
+
+
+
+
+enter open  s scan  u unlink  e edit  / filter  esc back  ? help

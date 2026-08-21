@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces                   default workloads
+  3 workloads
+▸ Deployment   web           2/3 ready    refs: 1
+  StatefulSet  database      1/1 ready    refs: 1
+  CronJob      backup        ↻ 0 2 * * *  refs: 1
+  Pods         orphaned (1)  refs: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+enter refs  L link  / filter  esc back  ? help

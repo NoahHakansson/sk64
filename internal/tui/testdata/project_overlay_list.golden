@@ -1,0 +1,24 @@
+ test-ctx  https://gateway.example/clusters/production               namespaces
+
+
+     +--------------------------------------------------------------------+
+     |                                                                    |
+     |                                                                    |
+     |  > [active]  local  /repos/local                                   |
+     |    context: test-ctx  saved server: https://gateway.example/cl...  |
+     |    [inactive]  production  /repos/production                       |
+     |    context: prod-ctx  saved server: https://prod.example           |
+     |    [server mismatch]  stale  /repos/stale                          |
+     |    context: test-ctx                                               |
+     |    saved https://gateway.example/clusters/staging                  |
+     |    active https://gateway.example/clusters/production              |
+     |                                                                    |
+     |                                                                    |
+     |                                                                    |
+     |                                                                    |
+     |                                                                    |
+     |                                                                    |
+     +--------------------------------------------------------------------+
+
+
+enter open  N new  / filter  esc close

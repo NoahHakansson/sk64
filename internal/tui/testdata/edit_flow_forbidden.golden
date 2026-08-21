@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces         db-creds/DB_PASSWORD (edit)
+
+
+
+
+    +----------------------------------------------------------------------+
+    |                                                                      |
+    |  Save forbidden                                                      |
+    |  ------------------------------------------------------------------  |
+    |                                                                      |
+    |  save Secret default/db-creds - key DB_PASSWORD                      |
+    |  context test-ctx - server https://test.example                      |
+    |                                                                      |
+    |  RBAC denied the write. Nothing in the cluster changed.              |
+    |  e reopens the editor so you can copy your work out.                 |
+    |                                                                      |
+    |  secrets db-creds is forbidden                                       |
+    |                                                                      |
+    +----------------------------------------------------------------------+
+
+
+
+
+e reopen editor to copy out  esc abort

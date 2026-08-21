@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces > default                  db-creds
+[S] Secret default/db-creds  Opaque
+  1 key
+> DB_PASSWORD  3 B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[success] saved Secret default/db-creds - no eligible workloads to restart
+enter edit  e edit all  N new  D delete  i import  x export  esc back  ? help

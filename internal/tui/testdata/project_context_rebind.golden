@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces                     confirm context
+
+
+
+    +----------------------------------------------------------------------+
+    |                                                                      |
+    |  Rebind project context?                                             |
+    |  ------------------------------------------------------------------  |
+    |                                                                      |
+    |  Context missing-ctx no longer exists.                               |
+    |  Context renamed-ctx points at the project's saved server.           |
+    |  Confirming re-points project api to context renamed-ctx.            |
+    |  This window uses test-ctx (https://test.example).                   |
+    |  Switching changes only this sk64 window.                            |
+    |  kubeconfig current-context and kubectl are unchanged.               |
+    |                                                                      |
+    |  Y rebind  A rebind and always switch  esc cancel                    |
+    |                                                                      |
+    +----------------------------------------------------------------------+
+
+
+
+
+Y rebind  A always  esc cancel

@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces         db-creds/DB_PASSWORD (edit)
+
+
+
+
+    +----------------------------------------------------------------------+
+    |                                                                      |
+    |  Editor failed                                                       |
+    |  ------------------------------------------------------------------  |
+    |                                                                      |
+    |  edit Secret default/db-creds - key DB_PASSWORD                      |
+    |  context test-ctx - server https://test.example                      |
+    |                                                                      |
+    |  sk64 read nothing back. Nothing was sent to the cluster.            |
+    |                                                                      |
+    |  exit status 1: editor stderr                                        |
+    |                                                                      |
+    +----------------------------------------------------------------------+
+
+
+
+
+
+e re-edit  esc abort

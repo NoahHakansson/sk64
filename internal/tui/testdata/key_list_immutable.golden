@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces > default                 immutable
+[S] Secret default/immutable  Opaque  [immutable]
+immutable resource - Kubernetes forbids editing its data; delete and recreate
+  1 key
+> password  6 B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+enter view  x export  r consumers  v values  / filter  esc back  ? help

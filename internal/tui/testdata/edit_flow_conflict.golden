@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces     db-creds/DB_PASSWORD (conflict)
+Conflict: Secret default/db-creds changed in the cluster
+context test-ctx - server https://test.example
+Y overwrites the other writer's change; cluster is now at resourceVersion 11
+[loading] checking consumers
+-- wrap off --------------------------------------------------------------------
+  --- DB_PASSWORD (cluster now)
+  +++ DB_PASSWORD (mine)
+  @@ -1 +1 @@
+  -cluster
+  \ No newline at end of file
+  +mine
+  \ No newline at end of file
+
+
+
+
+
+
+
+
+
+
+Y re-apply mine  e re-edit mine  up/down scroll  w wrap  esc abort

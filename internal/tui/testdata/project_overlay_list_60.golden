@@ -1,0 +1,24 @@
+ test-ctx  https://gateway.example/clusters/production  ...
+
+
+  +------------------------------------------------------+
+  |                                                      |
+  |                                                      |
+  |  > [active]  local  /repos/local                     |
+  |    context: test-ctx  saved server: https://gate...  |
+  |    [inactive]  production  /repos/production         |
+  |    context: prod-ctx  saved server: https://prod...  |
+  |    [server mismatch]  stale  /repos/stale            |
+  |    context: test-ctx                                 |
+  |    saved https://gateway.example/clusters/staging    |
+  |    active ...://gateway.example/clusters/production  |
+  |                                                      |
+  |                                                      |
+  |                                                      |
+  |                                                      |
+  |                                                      |
+  |                                                      |
+  +------------------------------------------------------+
+
+
+enter open  N new  / filter  esc close

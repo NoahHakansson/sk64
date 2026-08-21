@@ -1,0 +1,23 @@
+
+    ╭──────────────────────────────────────────────────────────────────────╮
+    │                                                                      │
+    │  Config error                                                        │
+    │  ──────────────────────────────────────────────────────────────────  │
+    │                                                                      │
+    │  /home/user/.config/sk64/config                                      │
+    │                                                                      │
+    │  ✗ line 2 · "keybind = ctrl+r=sideways"                              │
+    │    unknown action "sideways"                                         │
+    │    fix: use one of the documented rebindable actions                 │
+    │  ✗ line 5 · "keybind = ctrl+x=refresh"                               │
+    │    key collides with another action                                  │
+    │    fix: choose a key unused on the same screen                       │
+    │  ✗ line 9                                                            │
+    │    missing keybind value                                             │
+    │    fix: write keybind = <keys>=<action>                              │
+    │                                                                      │
+    │  fix the file and start sk64 again                                   │
+    │                                                                      │
+    ╰──────────────────────────────────────────────────────────────────────╯
+
+esc quit

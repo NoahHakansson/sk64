@@ -1,0 +1,24 @@
+ test-ctx  https://gateway.example/clus.../path  ... (edit)
+Save key DB_PASSWORD to Secret default/db-creds
+context test-ctx
+server https://gateway.example/clusters/production/a/very/lo
+ng/apiserver/path
+[loading] checking consumers
+-- wrap off ------------------------------------------------
+  --- DB_PASSWORD (cluster)
+  +++ DB_PASSWORD (edited)
+  @@ -1,2 +1,2 @@
+  -old line
+  +new line
+   second
+  \ No newline at end of file
+
+
+
+
+
+
+
+
+
+Y save  e re-edit  up/down scroll  w wrap  esc abort

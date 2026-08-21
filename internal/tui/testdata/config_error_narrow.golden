@@ -1,0 +1,23 @@
+
+  ╭──────────────────────────────────────────────────────╮
+  │                                                      │
+  │  Config error                                        │
+  │  ──────────────────────────────────────────────────  │
+  │                                                      │
+  │  /home/user/.config/sk64/config                      │
+  │                                                      │
+  │  ✗ line 12 · "keybind = ctrl+alt+shift+f12=half-     │
+  │  page-down"                                          │
+  │    key collides with another action on the resource  │
+  │  screen                                              │
+  │    fix: choose a key unused on the same screen       │
+  │  ✗ line 18 · "unknown = value"                       │
+  │    unknown setting "unknown"                         │
+  │    fix: remove the setting                           │
+  │                                                      │
+  │  fix the file and start sk64 again                   │
+  │                                                      │
+  ╰──────────────────────────────────────────────────────╯
+
+
+esc quit

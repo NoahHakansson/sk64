@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces > default             default (new)
+
+
+    +----------------------------------------------------------------------+
+    |                                                                      |
+    |  New Secret new-secret                                               |
+    |  ------------------------------------------------------------------  |
+    |                                                                      |
+    |  create Secret default/new-secret                                    |
+    |  context test-ctx - server https://test.example                      |
+    |                                                                      |
+    |  no required keys                                                    |
+    |                                                                      |
+    |  > Opaque                                                            |
+    |    kubernetes.io/tls                                                 |
+    |    kubernetes.io/dockerconfigjson                                    |
+    |    kubernetes.io/basic-auth                                          |
+    |    kubernetes.io/ssh-auth                                            |
+    |                                                                      |
+    +----------------------------------------------------------------------+
+
+
+
+enter select  esc back

@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  ... > db-creds     db-creds/DB_PASSWORD (edit)
+
+
+
+    +----------------------------------------------------------------------+
+    |                                                                      |
+    |  Rollout results                                                     |
+    |  ------------------------------------------------------------------  |
+    |                                                                      |
+    |  restart Secret default/db-creds - key DB_PASSWORD                   |
+    |  context test-ctx - server https://test.example                      |
+    |                                                                      |
+    |  1 restarted, 1 failed                                               |
+    |                                                                      |
+    |  [error] StatefulSet/database  failed: statefulsets.apps "database"  |
+    |  is forbidden: cannot patch                                          |
+    |  [success] Deployment/web  restarted                                 |
+    |                                                                      |
+    +----------------------------------------------------------------------+
+
+
+
+
+up/down scroll  enter done  esc close

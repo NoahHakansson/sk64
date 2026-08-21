@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces > default  app-credentials (delete)
+
+
+    +----------------------------------------------------------------------+
+    |                                                                      |
+    |  Delete Secret app-credentials                                       |
+    |  ------------------------------------------------------------------  |
+    |                                                                      |
+    |  delete Secret default/app-credentials                               |
+    |  context test-ctx - server https://test.example                      |
+    |                                                                      |
+    |  type Opaque - 1 key                                                 |
+    |  | checking consumers                                                |
+    |                                                                      |
+    |  ! Permanent. ctrl+z cannot restore a deleted resource.              |
+    |                                                                      |
+    |  type app-credentials to confirm                                     |
+    |  confirm:                                                            |
+    |                                                                      |
+    +----------------------------------------------------------------------+
+
+
+
+esc cancel

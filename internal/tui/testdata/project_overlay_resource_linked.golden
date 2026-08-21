@@ -1,0 +1,24 @@
+ test-ctx  https://test.example                                      namespaces
+
+
+
+
+
+
+
+     +--------------------------------------------------------------------+
+     |                                                                    |
+     |  Link Secret production/db-creds to project api                    |
+     |                                                                    |
+     |  linked Secret production/db-creds to project api                  |
+     |                                                                    |
+     +--------------------------------------------------------------------+
+
+
+
+
+
+
+
+
+enter close

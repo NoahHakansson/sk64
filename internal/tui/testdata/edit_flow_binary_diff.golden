@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces         db-creds/DB_PASSWORD (edit)
+Save key DB_PASSWORD to Secret default/db-creds
+context test-ctx - server https://test.example
+[loading] checking consumers
+-- wrap off --------------------------------------------------------------------
+  binary value changed
+  before: 3 B  sha256 cba06b5736fa...   after: 4 B  sha256 054edec1d021...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Y save  e re-edit  up/down scroll  w wrap  esc abort

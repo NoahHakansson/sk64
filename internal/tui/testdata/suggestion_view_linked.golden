@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces > api                          scan
+suggestions for api
+  1 suggestion
+> [S] app-secrets  production  pod.yaml:1  [manifest]  [linked]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+enter link  / filter  esc cancel  ? help

@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  ... > edit-target       edit-target (edit all)
+Save Secret default/edit-target
+context test-ctx - server https://test.example
+[loading] checking consumers
+this edit removes 1 key
+-- wrap off --------------------------------------------------------------------
+  --- keys (cluster)
+  +++ keys (edited)
+  @@ -1,2 +1,2 @@
+  -delete: old
+  -keep: before
+  +added: new
+  +keep: after
+
+
+
+
+
+
+
+
+
+
+Y save  e re-edit  up/down scroll  w wrap  esc abort

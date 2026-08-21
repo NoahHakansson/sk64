@@ -1,0 +1,24 @@
+ test-ctx  https://gateway.example/clus.../path  ... (file)
+
+  +------------------------------------------------------+
+  |                                                      |
+  |  Export db-creds/DB_PASSWORD to a file               |
+  |  --------------------------------------------------  |
+  |                                                      |
+  |  export Secret default/db-creds - key DB_PASSWORD    |
+  |  context test-ctx                                    |
+  |  server https://gateway.example/clusters/production  |
+  |  /a/very/long/apiserver/path                         |
+  |                                                      |
+  |  in .                                                |
+  |                                                      |
+  |  ! This writes the plaintext secret to disk. sk64    |
+  |    never removes it.                                 |
+  |                                                      |
+  |  > configs                                           |
+  |    notes.txt                                         |
+  |    values.yaml                                       |
+  |                                                      |
+  +------------------------------------------------------+
+
+enter open  s export here  backspace up  esc back

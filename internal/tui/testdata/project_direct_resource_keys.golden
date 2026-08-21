@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces > api                      payloads
+[S] Secret staging/payloads  Opaque
+  2 keys
+> config   21 B
+  payload  4 B   [binary]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+enter view  x export  r consumers  v values  / filter  esc back  ? help

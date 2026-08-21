@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces > api                Deployment/web
+Deployment production/web
+  1 reference
+> [S] workload-secret  env(key)  [rollout]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+enter open  L link  / filter  esc back  ? help

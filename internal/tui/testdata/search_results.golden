@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces                              search
+search: data
+2 resources across 2 namespaces indexed
+  2 matches
+> default  Secret/database
+  default  ConfigMap/settings  (key: database-url)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+enter open  ctrl+r rescan  esc back

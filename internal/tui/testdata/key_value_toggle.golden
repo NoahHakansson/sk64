@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces > default                searchable
+[S] Secret default/searchable  Opaque
+value search: on - / also matches decoded values (binary keys excluded)
+  2 keys
+> password  7 B
+  payload   3 B  [binary]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+enter edit  e edit all  N new  D delete  i import  x export  esc back  ? help

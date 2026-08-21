@@ -1,0 +1,24 @@
+ test-ctx  https://test.example                                      namespaces
+
+
+
+
+
+
+
+     +--------------------------------------------------------------------+
+     |                                                                    |
+     |  Link Deployment production/web to project api                     |
+     |                                                                    |
+     |  link Deployment production/web -> api failed                      |
+     |  [error] database is read-only - enter to close                    |
+     |                                                                    |
+     +--------------------------------------------------------------------+
+
+
+
+
+
+
+
+enter close

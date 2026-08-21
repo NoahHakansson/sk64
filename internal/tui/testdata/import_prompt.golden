@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  db-creds...PASSWORD (file)
+
+  +------------------------------------------------------+
+  |                                                      |
+  |  Import a file into db-creds/DB_PASSWORD             |
+  |  --------------------------------------------------  |
+  |                                                      |
+  |  import Secret default/db-creds - key DB_PASSWORD    |
+  |  context test-ctx - server https://test.example      |
+  |                                                      |
+  |  in .                                                |
+  |                                                      |
+  |  replaces the current value of this key              |
+  |  you will see the diff and a dry-run before          |
+  |  anything is written                                 |
+  |  maximum 1 MiB                                       |
+  |                                                      |
+  |  >     6B notes.txt                                  |
+  |       14B values.yaml                                |
+  |                                                      |
+  +------------------------------------------------------+
+
+
+enter pick  backspace up  esc back

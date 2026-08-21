@@ -1,0 +1,30 @@
+ test-ctx  https://test.example  namespaces                                                 default
+  4 resources · all kinds
+▸ 🔒 app-credentials  Opaque
+  📄 app-settings
+  📄 feature-flags
+  🔒 tls-cert         kubernetes.io/tls  immutable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+enter keys  N new  D delete  r consumers  L link  t type  / filter  esc back  ? help

@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces                                 api
+api  /repos/api
+context: test-ctx   server: https://test.example
+namespaces: production, staging
+opened from this repository
+  2 workloads - 2 resources
+Workloads
+> Deployment/web  production  2/3 ready  refs: 1  [subPath] [rollout]
+  StatefulSet/database  production  [no access]
+Directly linked resources
+  [C]  settings  production              (manual)     [subPath] [rollout]
+  [S]  gone  production                  (manual)     [missing]
+
+
+
+
+
+
+
+
+
+
+[incomplete] reference collection incomplete: 1 namespace a... - ctrl+r to retry
+enter open  s scan  u unlink  e edit  / filter  esc back  ? help

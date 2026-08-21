@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces > default workloads  Deployment/web
+Deployment default/web
+  7 references
+▸ 📄 missing-config    volume                                         missing
+  🔒 env-secret        env(API_KEY,DB_PASSWORD)  ↻ rollout
+  🔒 from-secret       envFrom                   ↻ rollout
+  🔒 projected-secret  projected
+  🔒 pull-secret       pull
+  🔒 sa-secret         sa
+  🔒 volume-secret     volume                    ⚠ subPath ↻ rollout
+
+
+
+
+
+
+
+
+
+
+
+
+
+enter open  L link  / filter  esc back  ? help

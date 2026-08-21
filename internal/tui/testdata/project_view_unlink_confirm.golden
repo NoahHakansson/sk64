@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces                                 api
+
+
+
+
+
+    +----------------------------------------------------------------------+
+    |                                                                      |
+    |  Unlink Deployment/web from project api?                             |
+    |  ------------------------------------------------------------------  |
+    |                                                                      |
+    |  This removes the link from sk64's local project database only.      |
+    |  Nothing in the cluster changes. L or s can link it again.           |
+    |                                                                      |
+    |  type YES and press enter to confirm                                 |
+    |  confirm:                                                            |
+    |                                                                      |
+    +----------------------------------------------------------------------+
+
+
+
+
+
+YES confirm  esc cancel

@@ -1,0 +1,15 @@
+ test-ctx  https://gateway.example/clu...path  ... (delete)
+  +------------------------------------------------------+
+  |                                                      |
+  |  delete Secret default/app-credentials               |
+  |  context test-ctx                                    |
+  |  server https://gateway.example/clusters/production  |
+  |  /a/very/long/apiserver/path                         |
+  |  ...and 2 more                                       |
+  |  ! Permanent. ctrl+z cannot restore a deleted        |
+  |    resource.                                         |
+  |  type app-credentials to confirm                     |
+  |  confirm:                                            |
+  |                                                      |
+  +------------------------------------------------------+
+enter delete  esc cancel

@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces > default           app-credentials
+[S] Secret default/app-credentials  Opaque
+  1 key
+> config  33 B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+enter view  x export  r consumers  v values  / filter  esc back  ? help

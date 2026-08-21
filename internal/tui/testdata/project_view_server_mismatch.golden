@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces                                 api
+api  /repos/api
+context: test-ctx   server: https://stored.example
+namespaces: default
+[server mismatch]  saved https://stored.example  active https://test.example
+reopen via ctrl+p to review and rebind
+  0 workloads - 1 resource
+Workloads
+  (none)
+Directly linked resources
+> [S]  credentials  default  [server mismatch]
+
+
+
+
+
+
+
+
+
+
+
+
+enter open  s scan  u unlink  e edit  / filter  esc back  ? help

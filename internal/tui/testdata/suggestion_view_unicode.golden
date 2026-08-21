@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces > api                          scan
+suggestions for api
+kustomize not on PATH · kustomizations parsed literally
+  5 suggestions
+▸ Namespace/production  k8s/app.yaml:1  [manifest]  ✓ found
+  Namespace/staging  .gitlab-ci.yml:1  [ci]  ✗ not in cluster
+  Deployment/web  production  k8s/app.yaml:1  [manifest]  check failed
+  🔒 app-secrets  production  k8s/app.yaml:1  [manifest]  ✓ found
+  📄 app-config-*  production  ✓ found: app-config-abc123
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+enter link  / filter  esc cancel  ? help

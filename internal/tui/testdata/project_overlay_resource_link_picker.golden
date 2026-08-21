@@ -1,0 +1,24 @@
+ test-ctx  https://test.example                                      namespaces
+
+     +--------------------------------------------------------------------+
+     |                                                                    |
+     |  Link Secret production/db-creds to project                        |
+     |                                                                    |
+     |                                                                    |
+     |  > [active]  api  /repos/api                                       |
+     |    context: test-ctx  saved server: https://test.example           |
+     |                                                                    |
+     |                                                                    |
+     |                                                                    |
+     |                                                                    |
+     |                                                                    |
+     |                                                                    |
+     |                                                                    |
+     |                                                                    |
+     |                                                                    |
+     |                                                                    |
+     |                                                                    |
+     |                                                                    |
+     +--------------------------------------------------------------------+
+
+enter link here  / filter  esc cancel

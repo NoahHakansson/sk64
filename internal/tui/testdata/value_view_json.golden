@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  ... > json-secret          json-secret/TENANTS
+Secret default/json-secret / TENANTS
+json - pretty-printed for display; the stored value is unchanged
+[
+  {
+    "id": "district-sodervik",
+    "organization_id": "org_0TEST"
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+up/down scroll  esc back  ? help

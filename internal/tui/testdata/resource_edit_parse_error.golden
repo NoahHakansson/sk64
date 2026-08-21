@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  ... > edit-target       edit-target (edit all)
+
+
+
+
+    +----------------------------------------------------------------------+
+    |                                                                      |
+    |  YAML parse failed                                                   |
+    |  ------------------------------------------------------------------  |
+    |                                                                      |
+    |  edit Secret default/edit-target                                     |
+    |  context test-ctx - server https://test.example                      |
+    |                                                                      |
+    |  Your edit is still in the temporary file; e reopens it.             |
+    |  Nothing was sent to the cluster.                                    |
+    |                                                                      |
+    |  parse YAML document: "port" has non-string value of type number     |
+    |                                                                      |
+    +----------------------------------------------------------------------+
+
+
+
+
+e re-edit  esc abort

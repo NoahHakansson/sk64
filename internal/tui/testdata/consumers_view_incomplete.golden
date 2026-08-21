@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces  Consumers of Secret default/shared
+Consumers of Secret default/shared
+  1 consumer
+> Deployment/web  env(key)  [rollout]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[incomplete] scan incomplete: pods not listable - ctrl+r to retry
+/ filter  esc back  ? help

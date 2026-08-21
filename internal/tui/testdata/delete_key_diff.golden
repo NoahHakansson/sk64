@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  ...              edit-target/obsolete (delete)
+Delete key obsolete from Secret default/edit-target
+context test-ctx - server https://test.example
+[loading] checking consumers
+-- wrap off --------------------------------------------------------------------
+  --- obsolete (cluster)
+  +++ obsolete (deleted)
+  @@ -1 +0,0 @@
+  -old
+  \ No newline at end of file
+
+
+
+
+
+
+
+
+
+
+
+
+
+Y delete  up/down scroll  w wrap  esc abort

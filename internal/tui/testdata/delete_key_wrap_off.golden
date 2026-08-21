@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  ...               edit-target/TENANTS (delete)
+Delete key TENANTS from Secret default/edit-target
+context test-ctx - server https://test.example
+[loading] checking consumers
+-- wrap off --------------------------------------------------------------------
+  --- TENANTS (cluster)
+  +++ TENANTS (deleted)
+  @@ -1 +0,0 @@
+  -[{"id":"district-sodervik","organization_id":"org_0TESTPLACEHOLD01","name":"D
+  \ No newline at end of file
+
+
+
+
+
+
+
+
+
+
+
+
+
+Y delete  up/down scroll  w wrap  esc abort

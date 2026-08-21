@@ -1,0 +1,24 @@
+ test-ctx  https://test.example                                      namespaces
+ns: default  project: api  cluster: local-cluster
+  5 namespaces
+> default
+  kube-public
+  kube-system
+  production
+  staging
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+enter open  a all-ns  w workloads  / filter  Q quit  ? help

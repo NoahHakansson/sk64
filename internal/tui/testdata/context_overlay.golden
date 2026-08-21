@@ -1,0 +1,24 @@
+ test-ctx  https://test.example                                      namespaces
+
+
+          +----------------------------------------------------------+
+          |                                                          |
+          |                                                          |
+          |  > test-ctx  [current]  cluster: shared-cluster          |
+          |    server: https://test.example  namespace: default      |
+          |    work-ctx  cluster: shared-cluster                     |
+          |    server: https://work.example  namespace: production   |
+          |                                                          |
+          |                                                          |
+          |                                                          |
+          |                                                          |
+          |                                                          |
+          |                                                          |
+          |                                                          |
+          |                                                          |
+          |                                                          |
+          |                                                          |
+          +----------------------------------------------------------+
+
+
+enter switch  / filter  esc close

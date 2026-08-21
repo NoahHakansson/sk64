@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces > default               edit-target
+[S] Secret default/edit-target  Opaque
+  1 key
+> editable  5 B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+enter edit  e edit all  N new  D delete  i import  x export  esc back  ? help

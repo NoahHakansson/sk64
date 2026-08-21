@@ -1,0 +1,24 @@
+ test-ctx  https://test.example                                      namespaces
+ns: default
+  1 namespace
+> default
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+no project for this directory - ctrl+p to create/search
+enter open  a all-ns  w workloads  / filter  Q quit  ? help

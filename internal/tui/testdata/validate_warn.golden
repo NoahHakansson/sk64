@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  ... > edit-target   edit-target/tls.crt (edit)
+
+
+
+
+    +----------------------------------------------------------------------+
+    |                                                                      |
+    |  Save Secret default/edit-target despite warnings?                   |
+    |  ------------------------------------------------------------------  |
+    |                                                                      |
+    |  save Secret default/edit-target - key tls.crt                       |
+    |  context test-ctx - server https://test.example                      |
+    |                                                                      |
+    |  [loading] checking consumers                                        |
+    |                                                                      |
+    |  ! kubernetes.io/tls requires key "tls.key"                          |
+    |                                                                      |
+    +----------------------------------------------------------------------+
+
+
+
+
+
+Y save anyway  e re-edit  esc abort

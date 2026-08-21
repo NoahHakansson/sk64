@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces         db-creds/DB_PASSWORD (edit)
+
+
+
+    +----------------------------------------------------------------------+
+    |                                                                      |
+    |  Save without a dry-run check?                                       |
+    |  ------------------------------------------------------------------  |
+    |                                                                      |
+    |  save Secret default/db-creds - key DB_PASSWORD                      |
+    |  context test-ctx - server https://test.example                      |
+    |                                                                      |
+    |  This cluster refused DryRun: All, so the change cannot be           |
+    |  validated before it is written.                                     |
+    |                                                                      |
+    |  ! Y writes immediately, with no admission pre-check.                |
+    |                                                                      |
+    |  admission webhook "legacy" does not support dry run                 |
+    |                                                                      |
+    +----------------------------------------------------------------------+
+
+
+
+Y proceed without dry-run  e re-edit  esc abort

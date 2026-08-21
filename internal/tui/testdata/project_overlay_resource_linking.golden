@@ -1,0 +1,24 @@
+ test-ctx  https://test.example                                      namespaces
+
+
+
+
+
+
+
+     +--------------------------------------------------------------------+
+     |                                                                    |
+     |  Link Secret production/db-creds to project api                    |
+     |                                                                    |
+     |  [loading] link Secret production/db-creds -> api - cannot cancel  |
+     |                                                                    |
+     +--------------------------------------------------------------------+
+
+
+
+
+
+
+
+
+linking (cannot cancel)

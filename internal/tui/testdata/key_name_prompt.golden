@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  ... > edit-target        edit-target (new key)
+
+
+
+
+
+    +----------------------------------------------------------------------+
+    |                                                                      |
+    |  New key in Secret edit-target                                       |
+    |  ------------------------------------------------------------------  |
+    |                                                                      |
+    |  namespace default                                                   |
+    |  key names may contain letters, digits and - _ .                     |
+    |  enter opens $EDITOR so you can type the value                       |
+    |                                                                      |
+    |  name:                                                               |
+    |                                                                      |
+    +----------------------------------------------------------------------+
+
+
+
+
+
+enter edit value  esc cancel

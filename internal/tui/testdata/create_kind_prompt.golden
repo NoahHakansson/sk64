@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces > default             default (new)
+
+
+
+
+    +----------------------------------------------------------------------+
+    |                                                                      |
+    |  New resource in namespace default                                   |
+    |  ------------------------------------------------------------------  |
+    |                                                                      |
+    |  create namespace default                                            |
+    |  context test-ctx - server https://test.example                      |
+    |                                                                      |
+    |  the name and type come next; then sk64 opens $EDITOR                |
+    |                                                                      |
+    |  > Secret                                                            |
+    |    ConfigMap                                                         |
+    |                                                                      |
+    +----------------------------------------------------------------------+
+
+
+
+
+enter select  esc back

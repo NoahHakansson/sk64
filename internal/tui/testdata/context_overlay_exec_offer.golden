@@ -1,0 +1,24 @@
+ test-ctx  https://test.example                                      namespaces
+
+
+
+
+
+
+
+
+          +----------------------------------------------------------+
+          |                                                          |
+          |  auth plugin needs the terminal. run it now? [Y/n]       |
+          |                                                          |
+          +----------------------------------------------------------+
+
+
+
+
+
+
+
+
+
+Y run  n back  esc close

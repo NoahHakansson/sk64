@@ -1,0 +1,15 @@
+ test-ctx  https://test.example  db-creds...PASSWORD (edit)
+  +------------------------------------------------------+
+  |                                                      |
+  |  Rollout results  1-2 of 12 shown                    |
+  |                                                      |
+  |  restart Secret default/db-creds - key DB_PASSWORD   |
+  |  context test-ctx - server https://test.example      |
+  |                                                      |
+  |  10 restarted, 2 failed                              |
+  |                                                      |
+  |  [error] Deployment/payments  failed: forbidden      |
+  |  [error] StatefulSet/database  failed: timed out     |
+  |                                                      |
+  +------------------------------------------------------+
+up/down scroll  enter done  esc close

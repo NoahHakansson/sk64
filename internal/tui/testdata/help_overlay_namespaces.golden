@@ -1,0 +1,34 @@
+ test-ctx  https://test.example                                      namespaces
+
+
+    +----------------------------------------------------------------------+
+    |                                                                      |
+    |  sk64 - keys                                                         |
+    |                                                                      |
+    |  namespaces                                                          |
+    |    enter       browse this namespace's secrets and configmaps        |
+    |    a           browse every namespace at once                        |
+    |    w           browse workloads in this namespace                    |
+    |                                                                      |
+    |  global                                                              |
+    |    ?           this help                                             |
+    |    esc         back / close / cancel the in-flight request           |
+    |    h/j/k/l     same as the arrow keys                                |
+    |    /           filter the current list                               |
+    |    ctrl+f      search resource and key names cluster-wide            |
+    |    ctrl+r      refresh the current screen                            |
+    |    ctrl+k      switch kube context                                   |
+    |    ctrl+p      switch project                                        |
+    |    ctrl+z      undo the last save (key list)                         |
+    |    L           link the item under the cursor to a project           |
+    |    Q / ctrl+c  quit (ctrl+c always requires two quick presses)       |
+    |                                                                      |
+    |  notes                                                               |
+    |    session undo (ctrl+z) is in RAM only - it dies with sk64          |
+    |    value search (v) checks this resource, never the cluster          |
+    |    destructive confirms need uppercase Y; esc always cancels         |
+    |                                                                      |
+    +----------------------------------------------------------------------+
+
+
+up/down scroll  esc close

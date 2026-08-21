@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces                      all namespaces
+  2 resources - all kinds - all namespaces
+> [S] production/one  Opaque
+  [C] staging/two
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+enter keys  D delete  r consumers  L link  t type  a one ns  esc back  ? help

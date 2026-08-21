@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces                   default workloads
+  2 workloads
+> StatefulSet  database  1/1 ready         refs: 1
+  CronJob      backup    [cron] 0 2 * * *  refs: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[incomplete] scan incomplete: deployments, pods unavailable - ctrl+r to retry
+enter refs  L link  / filter  esc back  ? help

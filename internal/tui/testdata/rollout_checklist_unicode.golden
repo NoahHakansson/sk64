@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  … > db-creds       db-creds/DB_PASSWORD (edit)
+
+
+
+
+    ╭──────────────────────────────────────────────────────────────────────╮
+    │                                                                      │
+    │  Saved: restart affected workloads?  1/1 selected                    │
+    │  ──────────────────────────────────────────────────────────────────  │
+    │                                                                      │
+    │  restart Secret default/db-creds · key DB_PASSWORD                   │
+    │  context test-ctx · server https://test.example                      │
+    │                                                                      │
+    │  ⚠ Restarting recreates pods; single-replica workloads drop          │
+    │    traffic.                                                          │
+    │                                                                      │
+    │  ▸ [x] Deployment/web                                                │
+    │                                                                      │
+    ╰──────────────────────────────────────────────────────────────────────╯
+
+
+
+
+space toggle  a all  R restart selected  esc skip

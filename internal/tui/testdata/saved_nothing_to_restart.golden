@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  ... > db-creds     db-creds/DB_PASSWORD (edit)
+
+
+
+
+
+    +----------------------------------------------------------------------+
+    |                                                                      |
+    |  Saved: nothing to restart                                           |
+    |  ------------------------------------------------------------------  |
+    |                                                                      |
+    |  save Secret default/db-creds - key DB_PASSWORD                      |
+    |  context test-ctx - server https://test.example                      |
+    |                                                                      |
+    |  The consumer check completed; no restartable workloads need a       |
+    |  restart.                                                            |
+    |                                                                      |
+    +----------------------------------------------------------------------+
+
+
+
+
+
+enter done  esc close

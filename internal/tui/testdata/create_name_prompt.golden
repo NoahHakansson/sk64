@@ -1,0 +1,24 @@
+ test-ctx  https://test.example  namespaces > default             default (new)
+
+
+
+
+    +----------------------------------------------------------------------+
+    |                                                                      |
+    |  New Secret in namespace default                                     |
+    |  ------------------------------------------------------------------  |
+    |                                                                      |
+    |  create Secret default/<name>                                        |
+    |  context test-ctx - server https://test.example                      |
+    |                                                                      |
+    |  names are DNS-1123: lowercase letters, digits, - and ., 253 max     |
+    |                                                                      |
+    |  name:                                                               |
+    |                                                                      |
+    +----------------------------------------------------------------------+
+
+
+
+
+
+enter next  esc back

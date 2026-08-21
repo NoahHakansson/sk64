@@ -1,0 +1,24 @@
+ test-ctx  https://test.example                                      namespaces
+
+
+
+
+
+
+
+     +--------------------------------------------------------------------+
+     |                                                                    |
+     |  Link Secret production/db-creds to project api                    |
+     |                                                                    |
+     |  link Secret production/db-creds -> api failed                     |
+     |  [error] database is read-only - enter to close                    |
+     |                                                                    |
+     +--------------------------------------------------------------------+
+
+
+
+
+
+
+
+enter close
