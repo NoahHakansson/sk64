@@ -1,0 +1,44 @@
+version: 2
+project_name: sk64
+release:
+  draft: false
+builds:
+  - main: ./cmd/sk64
+    binary: sk64
+    env: [CGO_ENABLED=0]
+    goos: [linux, darwin]
+    goarch: [amd64, arm64]
+    ldflags:
+      - -s -w -X main.version={{.Version}} -X main.commit={{.Commit}} -X main.date={{.Date}}
+archives:
+  - formats: [tar.gz]
+checksum:
+  name_template: checksums.txt
+sboms:
+  - artifacts: archive
+signs:
+  # cosign v3 signs into a single Sigstore bundle; verify with
+  # cosign verify-blob --bundle checksums.txt.cosign.bundle checksums.txt
+  # plus the expected --certificate-identity-regexp/--certificate-oidc-issuer.
+  - cmd: cosign
+    signature: "${artifact}.cosign.bundle"
+    args: ["sign-blob", "--yes", "--bundle=${signature}", "${artifact}"]
+    artifacts: checksum
+    output: true
+changelog:
+  use: github
+  sort: asc
+  groups:
+    - title: Features
+      regexp: '^.*?feat(\(.+\))??!?:.+$'
+      order: 0
+    - title: Fixes
+      regexp: '^.*?fix(\(.+\))??!?:.+$'
+      order: 1
+    - title: Others
+      order: 999
+  filters:
+    exclude:
+      - '^docs:'
+      - '^test:'
+      - '^chore:'
