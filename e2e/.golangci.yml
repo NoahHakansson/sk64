@@ -1,0 +1,19 @@
+version: "2"
+linters:
+  default: standard
+  enable:
+    - depguard
+    - gosec
+  settings:
+    depguard:
+      rules:
+        no-ambient-kubeconfig:
+          list-mode: lax
+          files:
+            - $all
+          deny:
+            - pkg: k8s.io/client-go/tools/clientcmd
+              desc: the e2e suite may only build a client from the rest.Config its own control plane produced
+formatters:
+  enable:
+    - gofmt
