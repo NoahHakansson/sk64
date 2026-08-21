@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+spec:
+  containers:
+    - name: app
+      image: app
+      envFrom:
+        - secretRef:
+            name: db-secret
+        - configMapRef:
+            name: app-config

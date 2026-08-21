@@ -1,0 +1,11 @@
+namespace: production
+resources:
+  - deployment.yaml
+configMapGenerator:
+  - name: app-config
+    literals:
+      - mode=production
+secretGenerator:
+  - name: app-secrets
+    literals:
+      - token=test

@@ -1,0 +1,4 @@
+deploy:
+  script:
+    - kubectl apply -f app.yaml --namespace gitlab
+    - kubectl get pods --namespace=gitlab

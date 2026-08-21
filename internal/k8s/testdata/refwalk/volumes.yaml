@@ -1,0 +1,28 @@
+apiVersion: v1
+kind: Pod
+spec:
+  containers:
+    - name: app
+      image: app
+      volumeMounts:
+        - name: secret-volume
+          mountPath: /secret
+          subPath: password
+        - name: config-volume
+          mountPath: /config
+          subPathExpr: $(CONFIG_FILE)
+  volumes:
+    - name: secret-volume
+      secret:
+        secretName: mounted-secret
+    - name: config-volume
+      configMap:
+        name: mounted-config
+    - name: unmounted-volume
+      secret:
+        secretName: unmounted-secret
+    - name: csi-volume
+      csi:
+        driver: secrets.example.com
+        nodePublishSecretRef:
+          name: csi-publish-secret

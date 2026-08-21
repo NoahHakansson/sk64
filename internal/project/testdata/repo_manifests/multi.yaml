@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+  namespace: production
+spec:
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+        - name: web
+          image: example.invalid/web
+          env:
+            - name: TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: app-secrets
+                  key: token
+          envFrom:
+            - configMapRef:
+                name: app-config
+          volumeMounts:
+            - name: tls
+              mountPath: /tls
+      volumes:
+        - name: tls
+          secret:
+            secretName: tls-cert
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: worker
+  namespace: jobs
+spec:
+  containers:
+    - name: worker
+      image: example.invalid/worker
+      envFrom:
+        - secretRef:
+            name: worker-secrets
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: staging
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ignored

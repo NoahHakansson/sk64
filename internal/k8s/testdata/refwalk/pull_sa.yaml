@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+spec:
+  serviceAccountName: app-sa
+  imagePullSecrets:
+    - name: registry-secret
+  containers:
+    - name: app
+      image: app

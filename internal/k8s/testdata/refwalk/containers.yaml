@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+spec:
+  containers:
+    - name: app
+      image: app
+  initContainers:
+    - name: init
+      image: init
+      env:
+        - name: TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: shared-secret
+              key: token
+  ephemeralContainers:
+    - name: debug
+      image: debug
+      envFrom:
+        - secretRef:
+            name: shared-secret

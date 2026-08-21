@@ -1,0 +1,9 @@
+jobs:
+  deploy:
+    steps:
+      - run: kubectl apply -f app.yaml -n staging
+      - run: kubectl get pods --namespace production
+      - run: kubectl get pods --namespace=qa --context prod-ctx
+      - run: helm upgrade app ./chart -f deploy/values-prod.yaml --namespace release
+      - run: kubectl get pods -n $NAMESPACE
+      - run: echo kubectl
